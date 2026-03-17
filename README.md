@@ -1,4 +1,4 @@
-# Dokumentasi: Privilege Escalation (Privesc) — Lab Edukasi
+# Privilege Escalation (Privesc) — Lab Edukasi
 
 > Dokumen ini dibuat untuk keperluan komunitas dan lab lokal (edukasi). Jangan gunakan teknik di luar lingkungan yang Anda miliki izin eksplisit untuk menguji.
 
@@ -72,6 +72,11 @@ Berikut langkah mitigasi yang bisa diterapkan di lingkungan nyata maupun untuk m
 * Aktifkan logging terpusat (syslog, SIEM) untuk memantau akses file berbahaya, perubahan permission, dan aktivitas `sudo`.
 * Monitor perubahan crontab dan file di direktori penting.
 
+### 5.4 Login dan Start
+
+* Chmod dulu ke run dengan cara chmod +x run
+* lalu tunggu script jalan pastikkan sudah install docker.
+* setelah lab online buka new tab dan langsung coba login dengan cara ssh analyst@localhost -p 3333
 ---
 
 ## 6. Cara aman menjalankan lab ini (operasional)
