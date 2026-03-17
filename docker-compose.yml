@@ -1,0 +1,7 @@
+version: "3"
+services:
+  ctf:
+    build: .
+    container_name: privesc-ctf
+    ports:
+      - "3333:22"  # SSH on port 3333 is custom port just login with ssh user@local -p 3333

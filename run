@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "build docker"
+sudo docker compose build --no-cache
+sleep 5
+echoo "running docker"
+sudo docker compose up
